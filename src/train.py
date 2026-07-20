@@ -17,7 +17,7 @@ os.environ['MLFLOW_TRACKING_USERNAME'] = 'nonsindisomkhize8'
 os.environ['MLFLOW_TRACKING_PASSWORD'] = '569a0634b5b1556e4eb2464bd05e8e95b6137830'
 
 #Load the parameters from params.yaml
-params=yaml.safe_load(open("machinelearningpipeline/params.yaml"))["train"]
+params=yaml.safe_load(open("params.yaml"))["train"]
 
 def random_tuning(X_train, y_train, search_space):
     rf = RandomForestClassifier()
