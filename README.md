@@ -20,12 +20,12 @@ The pipeline trains a **Random Forest Classifier** on the **Pima Indians Diabete
   - **Preprocessing** → `preprocess.py` cleans raw data.  
   - **Training** → `train.py` trains Random Forest, saves model, logs to MLflow.  
   - **Evaluation** → `evaluate.py` tests model accuracy, logs metrics.
+ 
+  - **[Training Strategies](ca://s?q=Training_strategies_in_ML_pipeline)**  
+  Models were trained using:
+  - Grid sampling  
+  - Random sampling  
 
 ---
 
-## 🚀 Getting Started
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/data-pipeline-dvc-mlflow.git
-   cd data-pipeline-dvc-mlflow
