@@ -20,11 +20,13 @@ The pipeline trains a **Random Forest Classifier** on the **Pima Indians Diabete
   - **Preprocessing** → `preprocess.py` cleans raw data.  
   - **Training** → `train.py` trains Random Forest, saves model, logs to MLflow.  
   - **Evaluation** → `evaluate.py` tests model accuracy, logs metrics.
- 
+ <br>
+ <br>
  **[Training Strategies](ca://s?q=Training_strategies_in_ML_pipeline)**  
   Models were trained using:
   - Grid sampling  
-  - Random sampling  
+  - Random sampling
+  - Bayesian sampling
 
 ---
 
