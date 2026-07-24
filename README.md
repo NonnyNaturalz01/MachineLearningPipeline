@@ -9,7 +9,6 @@ The pipeline trains a **Random Forest Classifier** on the **Pima Indians Diabete
 ---
 
 ## ✅ Key Features
-
 - **[Data Version Control](ca://s?q=DVC_for_data_and_model_versioning)**  
   Track datasets, models, and pipeline stages. Re-run automatically when dependencies change.
 
